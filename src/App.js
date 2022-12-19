@@ -5,6 +5,7 @@ import { List } from './List';
 
 function App() {
   return (
+    <div className='box'>
     <div className='app'>
       <div className='leftImg'>
       <img src={ image } width="200px" alt=''/>
@@ -14,6 +15,7 @@ function App() {
       <div className='rightImg'>
       <img src={ imageTwo } width="200px" alt='' />
       </div>
+    </div>
     </div>
   );
 }

@@ -1,12 +1,18 @@
 body {
   background-color: #62c2c8;
+  margin: 0;
 }
 
 .app {
   background-color: white;
   min-height: 80vh;
   width: 400px;
-  margin: 20px auto;
+  /* margin: 20px auto; */
+  margin-top: 20px;
+}
+.box {
+  display: flex;
+  justify-content: center;
 }
 
 .crossed {
@@ -66,4 +72,17 @@ h1 {
     padding: 8px;
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  @media all and (max-width: 500px) {
+    .app {
+      min-height: 70vh;
+      width: 350px;
+    }
   }
